@@ -1,10 +1,13 @@
-import Accordian from "./components/Accordion/Accordion"
+import Accordian from "./components/Accordion/Accordian"
+import RandomColor from "./components/random-color-generate/RandonColor"
 
 
 const App = () => {
   return (
     <div>
-      <Accordian/>
+      {/* Accordian Project */}
+      {/* <Accordian/> */}
+      <RandomColor/>
     </div>
   )
 }
