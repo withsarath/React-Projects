@@ -1,4 +1,5 @@
 import Accordian from "./components/Accordion/Accordian"
+import ImageSlider from "./components/Image-slider/ImageSlider"
 import RandomColor from "./components/random-color-generate/RandonColor"
 import StarRating from "./components/Star-Rating/StarRating"
 
@@ -13,7 +14,10 @@ const App = () => {
       {/* <RandomColor/> */}
 
       {/* Star Rating Project*/}
-      <StarRating noOfStars={10}/>
+      {/* <StarRating noOfStars={10}/> */}
+
+      {/* Image Slider Project */}
+      <ImageSlider url={'https://picsum.photos/v2/list'} limit={'10'} page={'1'}/>
     </div>
   )
 }
